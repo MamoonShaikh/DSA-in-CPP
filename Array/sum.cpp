@@ -9,10 +9,10 @@ int main() {
     cin >> n;
 
     // Validate the input size
-    // if (n <= 0 || n > 100) {  // Assuming 100 is a reasonable max size
-    //     cout << "Invalid number of elements. Please enter a value between 1 and 100." << endl;
-    //     return 1;  // Exit the program with an error code
-    // }
+    if (n <= 0 || n > 100) {  // Assuming 100 is a reasonable max size
+        cout << "Invalid number of elements. Please enter a value between 1 and 100." << endl;
+        return 1;  
+    }
 
     int arr[100];  // Declare an array with a fixed size
     

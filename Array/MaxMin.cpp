@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// Function to get the minimum value in an array
 int getMin(int num[], int n)
 {
     int min = INT32_MAX;
@@ -13,6 +13,7 @@ int getMin(int num[], int n)
     }
     return min;
 }
+// Function to get the maximum value in an array
 int getMax(int num[], int n)
 {
     int max = INT32_MIN;
